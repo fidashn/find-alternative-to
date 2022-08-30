@@ -252,7 +252,7 @@ border-bottom: transparent;
   font-size: small;
 }
 .show-more-btn{
-  display: none;
+  height: 60px;
 }
 
 .view-deal-btn{
