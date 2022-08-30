@@ -104,6 +104,7 @@ border-bottom: transparent;
 
 .product-page{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   height: 100vh;
 }
@@ -124,6 +125,13 @@ border-bottom: transparent;
   background-size: 100% 100%;
   width: 350px;
   height: 200px;
+  }
+
+  .product-img2{
+    background: url(./imgs/sony2.jpg) no-repeat;
+    background-size: 100% 100%;
+    width: 350px;
+    height: 200px;
   }
 
 .product-short-info-p{
@@ -167,7 +175,8 @@ border-bottom: transparent;
 
 .view-deal-btn:hover, .show-more-btn:hover{
   cursor: pointer;
-  background-color: #98f1e9;
+  background-color: salmon ;
+  color: #fff;
   border: 2px salmon solid;
 }
 
