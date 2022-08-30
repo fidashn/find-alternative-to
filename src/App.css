@@ -8,6 +8,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow-y: scroll;
 }
 
 
@@ -29,6 +30,7 @@ body{
 }
 
 .aboutUs-p, .ourServices-p{
+  width: 70%;
   margin: 5% 5% 5% 5%;
 }
 
@@ -209,6 +211,11 @@ body{
   .view-deal-btn{
     width: 100px;
   }
+
+  .footer{
+      position: absolute;
+      bottom: 0;
+   }
 }
 
 
@@ -228,7 +235,7 @@ body{
   }
   
   .product-short-info-p{
-    width:220px
+    width:220px;
   }
 .show-more{
   width: 150px;
@@ -251,6 +258,10 @@ body{
 .discount{
   width: 80px;
 }
+.footer{
+  position: absolute;
+  bottom: 0;
+}
 }
 
 @media only screen and (min-width: 1074px) {
@@ -259,4 +270,8 @@ body{
     justify-content: space-around;
     align-items: center;
   }
+  .footer{
+    position: absolute;
+    bottom: 0;
+ }
 }
