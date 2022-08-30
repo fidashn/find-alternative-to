@@ -1,7 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import Footer from './Components/Footer';
-// import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
 import AboutUs from './Pages/AboutUs';
 import Products from './Pages/Products';
@@ -19,8 +18,8 @@ function App() {
     </div>
     <Routes>
     <Route path='/' element={<Home />}/>
-    <Route path='/about' element={<AboutUs/>}/>
-    <Route path='/products' element={<Products />}/>
+    <Route path='/about-us' element={<AboutUs/>}/>
+    <Route path='/our-products' element={<Products />}/>
     </Routes>
     </Router>
     <Footer/>
