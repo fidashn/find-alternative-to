@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+
 
 function Navbar() {
   return (
@@ -6,8 +7,7 @@ function Navbar() {
     <ul className='navbar-items'>
     <li>Home</li>
     <li>About Us</li>
-    <li>Our Services</li>
-    <li>Contact Us</li>
+    <li>Our Products</li>
     </ul>
     {/* <div className='navbar-btns'>
     <button className='sign-inup btn'>Sign Up</button>
