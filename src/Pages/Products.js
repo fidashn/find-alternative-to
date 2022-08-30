@@ -28,7 +28,6 @@ function Products() {
       <div className="product-img2"></div>
       <div className="product-short-info">
         <p className="product-short-info-p">
-        Sony 85 Inch 4K Ultra HD TV X90K Series:
          BRAVIA XR Full Array LED Smart Google TV with Dolby Vision HDR and Exclusive Features for The Playstation 5 XR85X90K 2022 Model, Black.</p>
         <button className='discount'>50% off</button>
       </div>
