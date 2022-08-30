@@ -44,6 +44,46 @@ border-bottom: transparent;
   margin: 5% 5% 5% 5%;
 }
 
+.services-illustartion, .aboutUs-illustrations{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+}
+
+.illustration-1{
+  background: url(./imgs/undraw_around_the_world_re_n353.svg) no-repeat;
+  background-size: 100% 100%;
+  width: 200px;
+  height: 150px;
+}
+.illustration-2{
+  background: url(./imgs/undraw_online_transactions_-02-ka.svg) no-repeat;
+  background-size: 100% 100%;
+  width: 200px;
+  height: 150px;
+}
+.illustration-3{
+  background: url(./imgs/undraw_Thought_process_re_om58.png) no-repeat;
+  background-size: 100% 100%;
+  width: 200px;
+  height: 150px;
+}
+
+.aboutUs-illustration-1{
+  background: url(./imgs/undraw_build_your__home_csh6.png) no-repeat;
+  background-size: 100% 100%;
+  width: 200px;
+  height: 150px;
+}
+.aboutUs-illustration-2{
+  background: url(./imgs/undraw_discount_d4bd.png) no-repeat;
+  background-size: 100% 100%;
+  width: 200px;
+  height: 150px;
+}
+
+
 
 .navbar-items{
   display: flex;
@@ -171,7 +211,6 @@ border-bottom: transparent;
 }
 
 
-
 .footer {
   display: flex;
   justify-content: space-around;
@@ -179,7 +218,7 @@ border-bottom: transparent;
   background-color: #DFF6FF;
   height: 7vh;
   width: 100%;
-  position:fixed;
+  bottom: 0;
 }
 
 
@@ -223,7 +262,6 @@ border-bottom: transparent;
   }
 
   .footer{
-      position: absolute;
       bottom: 0;
    }
 }
@@ -269,7 +307,6 @@ border-bottom: transparent;
   width: 80px;
 }
 .footer{
-  position: absolute;
   bottom: 0;
 }
 }
@@ -281,7 +318,6 @@ border-bottom: transparent;
     align-items: center;
   }
   .footer{
-    position: absolute;
     bottom: 0;
  }
 }

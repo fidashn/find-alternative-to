@@ -13,6 +13,10 @@ function AboutUs() {
      <br />
      *especially on holidays and big sales compains.
     </p>
+    <div className='aboutUs-illustrations'>
+    <div className='aboutUs-illustration-1'></div>
+    <div className='aboutUs-illustration-2'></div>
+    </div>
     </div>
   )
 }
