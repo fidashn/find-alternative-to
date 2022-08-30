@@ -11,9 +11,9 @@ function App() {
     <Router>
     <div className='navbar'> 
     <ul className='navbar-items'>
-     <Link to='/'><li>Home</li></Link>
-     <Link  to='/about-us'><li>About Us</li></Link>
-     <Link  to='/our-products'><li>Our Products</li></Link>
+     <Link className='navbar-item' to='/'><li>Home</li></Link>
+     <Link className='navbar-item' to='/about-us'><li>About Us</li></Link>
+     <Link className='navbar-item' to='/our-products'><li>Our Products</li></Link>
     </ul>
     </div>
     <Routes>

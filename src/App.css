@@ -9,6 +9,7 @@ body{
   flex-direction: column;
   justify-content: space-between;
   overflow-y: scroll;
+  font-family:sans-serif;
 }
 
 
@@ -19,6 +20,15 @@ body{
   background-color: #DFF6FF;
   list-style: none;
   height: 7vh;
+}
+
+.navbar-item{
+text-decoration: none;
+border-bottom: transparent;
+}
+
+.navbar-item:hover{
+  border-bottom:3px salmon solid;
 }
 
 .aboutUs-container,.ourServices-container{
@@ -112,7 +122,7 @@ body{
 
 .view-deal-btn:hover, .show-more-btn:hover{
   cursor: pointer;
-  background-color: #47B5FF;
+  background-color: #98f1e9;
   border: 2px salmon solid;
 }
 
